@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="./script.js/app.js" type = "module"></script>
+</head>
+<body>
+    <header>
+    <h1>SKIT PARKING SYSTEM</h1>
+</header>
+<main>
+    <form method="get" action="" value="User form">
+       <h2>User Registration  form</h2>
+       <input type="text" id="userName" name="" pattern="[A-Z a-z]+" placeholder="Name" required/><br>
+       <input type="text" id="userContact" name="" pattern="[0-9]{10}" placeholder="Contact"required/>
+      <!-- <div>
+        <label >Gender :</label>
+
+        <label><input type="radio" name="Gender" id="" >Male</label>
+
+        <label><input type="radio" name="Gender" id="" >Female</label>
+
+        <label><input type="radio" name="Gender" id="" >Others</label>
+
+    </div> -->
+    <select name="Type of user" id="userRole">
+        <option value=""  disabled selected>--Select Role--</option>
+        <option value="faculty">faculty</option>
+        <option value="student">Student</option>
+    </select><br>
+    <!-- <label>Date of Registration :</label> -->
+
+    <!-- <input type="date" name="" id="userSubmitButton"> -->
+    <input type="submit" value="Register"id="userSubmitButton">
+
+    </form>
+
+
+    <form action="" value="vehicle form">
+        <h2>Vehicle Registration  form</h2>
+        <input type="text" name="" id="vehicleName" pattern="[A-Z a-z 0-9]+" placeholder=" Vehicle Name/ Id" required/><br>
+        <select name="Type of Vehicle" id="vehicleType">
+            <option value=""  disabled selected> Type of vehicle</option>
+            <option value="Cycle">Cycle</option>
+            <option value="Motor Cycle">Motor Cycle</option>
+            <option value="Car">Car</option>
+        </select>
+        <br>
+
+        <input type="submit" value="submit" id="vehicleSubmitButton">
+    </form>
+
+<div>
+    <form action="" id="passChoice">
+        <h2>PassChoice</h2>
+        <!-- <label>Pass choice :</label>
+        <label><input type="radio" name="pass choice" id="">Daily Pass</label>
+        <label><input type="radio" name="pass choice" id="">Monthly Pass</label>
+        <label><input type="radio" name="pass choice" id="">Yearly Pass</label> -->
+    </form>
+</div>   
+</main>
+
+<div id="ticket">
+    <div>
+    <!-- <label > Pass ID :</label>
+    <label >..................</label>
+</div>
+<div>
+    <label>Vehicle Id :</label>
+    <label>..................</label>
+</div>
+<div>
+    <label> Owner Name :</label>
+    <label>..................</label>
+</div>
+<div>
+    <label>Expiry :</label>
+    <label>..................</label>
+</div> -->
+</div>
+<footer>
+    &copy;@Copyright 2023 SKIT
+</footer>
+
+    
+</body>
+</html>

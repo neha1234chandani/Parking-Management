@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    font-size: 16px;
+    background-color:rgb(210, 218, 226);
+}
+header{
+    text-align: center;
+    margin-top: 10px;
+
+}
+form h2{
+    text-align: center;
+    color:black;
+    padding:5px;
+    margin:5px;
+}
+form{
+    border: solid 1.5px black;
+    margin:30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    line-height : 1.2rem ;
+    background-color:white;
+    box-shadow: 2px 2px 1px;
+    max-width: 500px;
+}
+
+
+
+form input[type="text"]
+{
+margin: 10px 0px;
+padding:2px;
+width: 100%;
+font-size: 1.1rem;
+box-sizing: border-box;
+}
+
+/* form input[type="radio"]
+{
+width:auto;
+margin-right: 5px;
+} */
+/* 
+form label{
+    margin-right : 20px;
+} */
+
+
+form input[type="button"]{
+  display:block;
+  background-color:burlywood;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+form select
+{
+  width:100%;
+  margin: 10px 0px;
+  box-sizing: border-box;
+}
+#ticket{
+    border:dashed 1.5px;
+    margin-right: 200px; 
+    margin:30px auto;
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 1.5 rem;
+    max-width: 500px;
+    border-radius: 5px;
+
+}
+#ticket label
+{
+    width:120px;
+    display:inline-block;
+
+}
+footer{
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
